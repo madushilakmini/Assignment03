@@ -1,0 +1,1 @@
+This is a React Native app designed for the University of Vavuniya (UoV) students. The app allows students to log in and access various features like their profile, courses, and subjects with corresponding marks and details. The app provides an intuitive navigation system for students to manage their academic information.
