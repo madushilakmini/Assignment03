@@ -41,11 +41,11 @@ const Login = () => {
   };
 
   return (
-    <KeyboardAvoidingView
-      behavior={Platform.OS === "ios" ? "padding" : "height"}
-      style={styles.view}
-    >
-      <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+    // <KeyboardAvoidingView
+    //   behavior={Platform.OS === "ios" ? "padding" : "height"}
+    //   style={styles.view}
+    // >
+      //<TouchableWithoutFeedback onPress={Keyboard.dismiss}>
         <View style={styles.body}>
           <Image source={require("../assets/logo.png")} style={styles.image} />
 
@@ -98,8 +98,8 @@ const Login = () => {
             <Text style={styles.footer.text}>&copy; 2025 UoV Student Care</Text>
           </View>
         </View>
-      </TouchableWithoutFeedback>
-    </KeyboardAvoidingView>
+      //</TouchableWithoutFeedback>
+    //</KeyboardAvoidingView>
   );
 };
 

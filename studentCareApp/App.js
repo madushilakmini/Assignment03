@@ -5,7 +5,7 @@ import { PaperProvider } from "react-native-paper";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
 import Login from "./components/Login";
-import Profile from "./components/Profile";
+//import Profile from "./components/Profile";
 import Home from "./components/Home";
 
 export default function App() {
